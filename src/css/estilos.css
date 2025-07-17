@@ -26,7 +26,7 @@ main{
     position: relative;
 }
 .container h4{
-    color: green;
+    color: hsl(150, 100%, 66%);
     font-size: 17px;
     font-weight: bold;
     /* color: hsl(193, 38%, 86%); */
@@ -41,12 +41,14 @@ main{
     color: hsl(193, 38%, 86%);
 }
 .gerar{
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
     border-radius: 50px;
     position: absolute;
-    bottom: -35px;
-
+    bottom: -30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border: none;
     background-color: hsl(150, 100%, 66%);
     cursor: pointer;
